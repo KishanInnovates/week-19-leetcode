@@ -3,7 +3,7 @@ import { createClient } from "redis";
 
 const app = express();
 app.use(express.json());
-//server
+//server side
 const client = createClient();
 
 client
